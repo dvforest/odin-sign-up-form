@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Temporary outline for layout */
+.logo-section, .main-section {
+        border: solid 1px grey;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.logo-section {
+    width: 30%;
+}
+
+.main-section {
+    flex: 1;
+}
+
