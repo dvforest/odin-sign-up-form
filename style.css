@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    width: 30%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,3 +60,4 @@ body {
 .credit a {
     color: rgb(255, 255, 255);
 }
+
