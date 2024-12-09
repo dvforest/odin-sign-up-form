@@ -15,8 +15,18 @@
 
 body {
     display: flex;
-    height: 100vh;
+    height: 130vh;
 }
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ============= */
+/*    HEADER     */
+/* ============= */
 
 .header {
     width: 37%;
@@ -46,18 +56,43 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.header .credit{
+.header .credit {
     margin: 10px auto;
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 0.8rem;
     color: rgb(255, 255, 255);
 }
 
-.main {
-    flex: 1;
-}
-
-.credit a {
+.header .credit a {
     color: rgb(255, 255, 255);
 }
 
+/* ============= */
+/*    MAIN      */
+/* ============= */
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-section, .form-section, .button-section {
+    flex: 1;
+    padding: 20px 200px 20px 40px;
+}
+
+.hero-section, .button-section {
+    background-color: rgb(245, 247, 251);
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.form-section ul {
+    list-style-type: none;
+}
