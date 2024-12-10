@@ -11,6 +11,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    --secondary-color: rgb(89, 109, 72);
 }
 
 body {
@@ -93,6 +94,34 @@ h1 {
     justify-content: end;
 }
 
-.form-section ul {
+.form-section > ul {
     list-style-type: none;
+}
+
+.button-section > .login-prompt {
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+}
+
+.button-section > .login-prompt > a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.button-section > button {
+    margin-top: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 15px 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 25%);
+    border: none; 
+}
+
+.button-section > button:hover {
+    cursor: pointer;
 }
